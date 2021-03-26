@@ -1,0 +1,29 @@
+.header-banner {
+    height: 45px;
+    margin-bottom: 0;
+}
+
+.header-banner p a {
+    font-weight: 900;
+    margin: auto 8px;
+}
+
+.header-banner p a:hover { 
+    background-color: #f6f5fa;
+    border: 2px solid #fff;
+    color: #3A10E5;
+}
+
+.close-banner:hover { 
+    background-color: #f6f5fa;
+    border: 1px solid #f6f5fa;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/******* Media *******/
+@media only screen and (max-width: 580px) {
+    .header-banner {
+        height: 68px;
+    }
+}
