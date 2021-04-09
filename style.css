@@ -1,5 +1,7 @@
+@font-face {font-family: "Apercu"; src: url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot"); src: url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff") format("woff"), url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.svg#Apercu") format("svg"); }
+
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: Apercu, 'Noto Sans JP', sans-serif;
 }
 
 
@@ -206,11 +208,94 @@ body {
 }
 
 .first-row-right {
-    padding: 4rem 2rem 2rem;
-    width: auto;
 }
 
+.first-row-right .form{
+    padding: 64px 32px 32px 106px; 
+}
+
+.first-row-right h5 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.first-row-right .form input {
+    border: 1px solid #a2a2a6; 
+    margin-top: 14px;
+    padding-left: 10px;
+}
+
+.first-row-right .form label {
+    font-size: 18px;
+    font-weight: 600;
+}
  
+.first-row-right .form input:focus {
+    border: 2px solid #6400e4;  
+    border-radius: 2px;
+}
+
+.first-row-right .form .btn {
+    width: 100%;
+    height: 47px;
+    background-color: #6400e4;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.33333;
+    text-transform: none;
+} 
+
+.first-row-right .form p {
+    font-family: Apercu;
+}
+
+.first-row-right .form p a {
+    color: #6400e4;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.signup-social{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.btn-container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.btn-container-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin: auto 13px;
+    height: 46px;
+}
+
+.social-item {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #f6f5fa;
+    color: #4b4b4d;
+    display: block;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: .5rem;
+    min-width: 100%;
+    padding: .5rem 1rem;
+    text-align: left;
+    transition: box-shadow .3s;
+}
+
+
+
 /******* Media *******/
 @media only screen and (max-width: 580px) {
     .header-banner {
