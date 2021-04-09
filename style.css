@@ -2,6 +2,8 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+
+/****************** Header **********************/
 .header-banner {
     height: 45px;
     margin-bottom: 0;
@@ -129,6 +131,84 @@ body {
     font-weight: 700;
 }
 
+/****************** Main **********************/
+/**************** First Row *******************/
+.first-row {
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+.first-row-left {
+    margin-top: 2rem;
+}
+
+.dots {
+    font-size: 0.85rem;
+}
+
+.dots i {
+    padding-right: 7px;
+}
+
+.square {
+    height: 235px; 
+    background-color: #ff8ff5;
+    position: absolute;
+    left: 12%;
+    z-index: 0;
+    max-width: 50%;
+    top: 110px;
+}
+
+.bars {
+    margin-left: 24%;
+    z-index: 3;
+    position: relative;
+    top: -570px;
+}
+
+.single-bar {
+    background-color: black;
+    padding-top: 0;
+    height: 18px;
+    width: 35%;
+    left: 22%;
+    margin-bottom: 12px;
+}
+
+.first-row-image {
+    position:relative;
+    z-index: 1;
+    top: 25px;
+}
+
+.text-box {
+    width: 457px;
+    background-color: #6400e4;
+    padding: 2rem;
+    position: absolute;
+    left: 3rem;
+    top: 56%;
+    z-index: 3;
+    color: #fff;
+    font-size: 37px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    top: 529px;
+    border-left: 0 solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 300px solid #64edbf;
+    position: absolute;
+    z-index: 2;
+}
+
+.first-row-right {
+    padding: 4rem 2rem 2rem;
+    width: auto;
+}
 
  
 /******* Media *******/
