@@ -1,3 +1,7 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 .header-banner {
     height: 45px;
     margin-bottom: 0;
@@ -6,12 +10,17 @@
 .header-banner p a {
     font-weight: 900;
     margin: auto 8px;
+    border: 2px solid #ffd740 ;
 }
 
 .header-banner p a:hover { 
     background-color: #f6f5fa;
     border: 2px solid #fff;
     color: #3A10E5;
+}
+
+.close-banner { 
+    border: 1px solid #ffd740;
 }
 
 .close-banner:hover { 
@@ -21,9 +30,115 @@
     cursor: pointer;
 }
 
+.navbar-fixed { 
+    height: 80px;
+    box-shadow: none; 
+}
+
+.navbar-fixed nav {
+    box-shadow: none;
+    border-bottom: 1px solid #fff;
+    height: 69px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.nav-wrapper .brand-logo {
+    align-self: start;
+    flex: 0 0 auto; 
+    position: relative;
+    max-width: 200px;
+    order: 0;
+}
+
+.sidenav-trigger {
+    align-self: flex-end;
+    flex: 0 0 auto;
+    position: absolute;
+    margin-right: 200px;
+    order: 3;
+}
+
+.sidenav li a:hover{
+    background-color: transparent;
+    color: #311b92;
+}
+
+.sidenav li:hover{
+    background-color: transparent;
+    color: #311b92;
+}
+
+.sidenav-header {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+}
+
+.sidenav-header:hover{
+    background-color: none;
+    color: #311b92;
+}
+
+.nav-wrapper .container .navbar-ul {
+    align-self: flex-start;
+    flex: 0 0 auto;
+    position: absolute;
+    margin-left: 10px;
+    order: 1;
+    display:inline-block;
+
+
+} 
+.navbar-ul li a:hover{
+    background-color: transparent;
+    color: #311b92;
+}
+
+.navbar-ul li:hover{
+    background-color: transparent;
+    color: #311b92;
+}
+
+.nav-wrapper .container {
+    width: 92%;
+}
+
+.navbar-ul li a {
+    color: #10162f;
+    font-size: 15px; 
+} 
+
+.dropdown-trigger i {
+    margin-left: 0px;
+}
+
+.login-btn {
+    align-self: flex-end;
+    margin-left: 0px;
+    order: 2;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+
+ 
 /******* Media *******/
 @media only screen and (max-width: 580px) {
     .header-banner {
         height: 68px;
+    }
+
+    .login-btn {
+        position: absolute;
+        right: 74px;
     }
 }

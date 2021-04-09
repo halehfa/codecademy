@@ -1,0 +1,65 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar-fixed { 
+    height: 80px;
+    box-shadow: none; 
+}
+
+.navbar-fixed nav {
+    box-shadow: none;
+    border-bottom: 1px solid black;
+    height: 69px;
+}
+
+.nav-wrapper { 
+    padding-left: 70px;
+    width: 100%;
+}
+
+.nav-wrapper .brand-logo {
+    justify-content: flex-start;
+    flex: 0 1 22%; 
+    position: relative;
+}
+
+.nav-wrapper .navbar-ul {
+    justify-content: flex-end;
+    flex: 0 1 22%;
+    position: relative;
+}
+
+.navbar-ul li a {
+    color: #10162f;
+    font-size: 15px;
+    padding: 0 8px;
+}
+
+.navbar-ul li a:hover {
+    color: #0d47a1 ;
+    background-color: white;
+}
+
+.dropdown-trigger i {
+    margin-left: 0px;
+}
+
+.login-btn {
+    justify-content: flex-end;
+    flex: 0 1 22%;
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+/******* Media *******/
+@media only screen and (max-width: 580px) {
+    .header-banner {
+        height: 68px;
+    }
+}
