@@ -436,7 +436,6 @@ body {
 
 .forth-row {
     background-color: #141c3a;
-    height: 878px;
     background-image: url(img/bg4.svg);
     margin-top: -41px;
 }
@@ -453,7 +452,7 @@ body {
 
 .bars-image {
     position: absolute;
-    top: 2980px;
+    top: 2937px;
     left: 1182px;
     width: 96px;
 } 
