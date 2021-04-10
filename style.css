@@ -147,6 +147,7 @@ body {
 
 .dots {
     font-size: 0.85rem;
+    color: #141c3a;
 }
 
 .dots i {
@@ -171,7 +172,7 @@ body {
 }
 
 .single-bar {
-    background-color: black;
+    background-color: #141c3a;
     padding-top: 0;
     height: 18px;
     width: 35%;
@@ -361,6 +362,7 @@ body {
 }
 
 /**************** Third Row *******************/
+
 .third-row {
     padding-right: 100px;
     padding-left: 100px;
@@ -430,6 +432,40 @@ body {
     margin-bottom: 92px;
 }
 
+/**************** Forth Row *******************/
+
+.forth-row {
+    background-color: #141c3a;
+    height: 878px;
+    background-image: url(img/bg4.svg);
+    margin-top: -41px;
+}
+
+.forth-bg {
+    width: 100%;
+}
+
+.dots-image {
+    position: absolute;
+    top: 3055px;
+    left: 76px;
+}
+
+.bars-image {
+    position: absolute;
+    top: 2980px;
+    left: 1182px;
+    width: 96px;
+}
+
+.forth-row .col {
+    padding-top: 100px 53px 20px 53px;
+}
+
+.forth-row .col h1 {
+    font-size: 3.84rem;
+    font-weight: 600;
+}
 /******* Media *******/
 @media only screen and (max-width: 995px) {
     .second-row-top-image {
