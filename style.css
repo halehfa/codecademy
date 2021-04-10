@@ -456,16 +456,49 @@ body {
     top: 2980px;
     left: 1182px;
     width: 96px;
-}
-
-.forth-row .col {
-    padding-top: 100px 53px 20px 53px;
-}
+} 
 
 .forth-row .col h1 {
     font-size: 3.84rem;
     font-weight: 600;
 }
+.fields {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 285px;
+}
+.fields .col {
+    align-items: flex-start;
+    align-self: flex-end;
+    flex: 1;
+}
+.forth-row .fields .col h3 {
+    text-align: center;
+    width: 100%; 
+    color: white;
+    font-size: 32px;
+    border-bottom: 3px solid #fff;
+}
+
+.fields ul {
+    width: 100%;
+}
+.fields ul li{  
+    color: white;
+    display: inline;
+    padding-right: 20px;
+}  
+
+.fields ul li i {
+    font-size: 12px;
+}
+
+.fields-text{
+    color: white;
+    font-size: 17px;
+}
+
 /******* Media *******/
 @media only screen and (max-width: 995px) {
     .second-row-top-image {
