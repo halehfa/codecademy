@@ -557,6 +557,47 @@ body {
     font-size: 18px;
     font-weight: 600;
 }
+
+/**************** Footer *******************/
+
+footer {
+    position: relative;
+    top: -267px;
+}
+
+.foooter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 285px;
+    padding: 25px 80px;
+}
+
+.footer .col {
+    align-items: flex-start;
+    align-self: flex-start;
+    flex: 1;
+}
+
+.foooter-right {
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+}
+
+.foooter-social li {
+    display: inline;
+}
+
+.foooter-list li a {
+    color: black;
+    text-decoration: none;
+}
+
+.foooter-left {
+    
+    border-bottom: 1px solid black;
+    margin-bottom: 0px;
+}
 /******* Media *******/
 @media only screen and (max-width: 995px) {
     .second-row-top-image {
